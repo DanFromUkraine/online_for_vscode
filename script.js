@@ -9,6 +9,7 @@ var fade = function  (node) {
             setTimeout(step, 100);
         }
     }
+    setTimeout(step, 100);
 }
 
-setTimeout(document.body);
+fade(document.body);
